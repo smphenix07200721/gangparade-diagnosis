@@ -1,0 +1,84 @@
+body{
+    background: linear-gradient(to bottom,#fff8f0,#ffffff);
+    color:Black;
+    text-align:center;
+    font-family: "Zen Maru Gothic", sans-serif;
+}
+
+#resultImage{
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.3);
+}
+
+#resultScreen{
+    margin-top: 40px;
+}
+
+#resultText{
+    width: 700px;
+    margin: 30px auto;
+    line-height: 1.8;
+    font-size: 20px;
+}
+
+#retryButton{
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    font-size: 22px;
+}
+
+button {
+    width: 80%;
+    max-width: 500px;
+    padding: 18px;
+    margin: 12px 0;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 12px;
+
+    background: #ff8c00;
+    color: white;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #ff6600;
+    transform: scale(1.03);
+}
+
+button:active{
+    transform:scale(0.97);
+}
+
+#questionScreen,
+#question2Screen,
+#question3Screen,
+#question4Screen,
+#question5Screen,
+#resultScreen{
+    text-align: center;
+}
+
+button{
+   display: block;
+   margin: 15px auto; 
+}
+
+#topImage{
+    width: 70%;
+    max-width: 500px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <title>GANG PARADE 推し診断</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="startScreen">
+    <img src="images/ギャンパレ.jpg" id="topImage" alt="GANG PARADE">
+
+    <h1>ギャンパレを推すなら～？</h1>
+
+    <button id="startButton">診断はこちら～‼</button>
+</div>
+
+<div id="questionScreen" style="display:none;">
+    <h2>質問１</h2>
+    <p>休日の予定が急に無くなった。あなたなら？</p>
+
+    <button id="answerA">どこかへ出かける</button>
+    <button id="answerB">家で過ごす</button>  
+</div>
+
+<div id="question2Screen" style="display:none;">
+    <h2>質問２</h2>
+    <p>ライブに行きたくなるきっかけは？</p>
+
+    <button id="answerC">メンバーのパフォーマンスや表情</button>
+    <button id="answerD">楽曲や歌詞</button>
+</div>
+
+<div id="question3Screen" style="display:none;">
+    <h2>質問３</h2>
+    <p>遠出をするなら？</p>
+
+    <button id="answerE">みんなでワイワイ楽しみながら行きたい‼</button>
+    <button id="answerF">事前にしっかり計画を立てて一人で行きたい</button>
+    <button id="answerG">行先も決めず自由気ままに楽しみたい‼</button>
+</div>
+  
+<div id="question4Screen" style="display:none;">
+    <h2>質問４</h2>
+    <p>新しいことに挑戦するときは？</p>
+
+    <button id="answerH">常にわくわくして、楽しみな気持ち</button>
+    <button id="answerI">失敗するかも...とネガティブになりがち</button>
+    <button id="answerJ">特に気持ちの変化はない</button>
+</div>
+
+<div id="question5Screen" style="display: none;">
+    <h3>質問５
+        <p>あなたが一番大切にしたいものは？</p>
+
+        <button id="answerK">みんなと笑いあう時間</button>
+        <button id="answerL">自分らしくいられる時間</button>
+    </h3>
+</div>
+<div id="resultScreen" style="display:none;">
+    <h2>診断結果</h2>
+
+    <h3 id="resultName"></h3>
+
+    <img id="resultImage" src="" alt="診断結果" width="300">
+
+    <p id="resultText"></p>
+
+    <button id="restartButton">もう一度診断する‼</button>
+</div>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
