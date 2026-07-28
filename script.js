@@ -21,7 +21,6 @@ const question3Screen = document.getElementById("question3Screen");
 const question4Screen = document.getElementById("question4Screen");
 const question5Screen = document.getElementById("question5Screen");
 const resultScreen = document.getElementById("resultScreen");
-const resultImage = document.getElementById("resultImage");
 const restartButton = document.getElementById("restartButton");
 const resultName = document.getElementById("resultName");
 const resultText = document.getElementById("resultText");
