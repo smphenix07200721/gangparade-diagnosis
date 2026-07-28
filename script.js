@@ -170,20 +170,6 @@ function showResult(){
         }
     }
 
-    restartButton.addEventListener("click", function(){
-
-        //点数をリセット
-        for(let member in scores){
-            scores[member] = 0;
-        }
-        
-        resultName.textContent = "";
-        resultText.textContent = "";
-        resultImage.src = "";
-
-        resultScreen.style.display ="none";
-        startScreen.style.display ="block";
-    });
     //
         resultName.textContent =maxMember;
 
@@ -259,3 +245,18 @@ function showResult(){
         }
 
         }
+
+ restartButton.addEventListener("click", function(){
+
+        //点数をリセット
+        for(let member in scores){
+            scores[member] = 0;
+        }
+        
+        resultName.textContent = "";
+        resultText.textContent = "";
+       
+
+        resultScreen.style.display ="none";
+        startScreen.style.display ="block";
+    });
