@@ -82,3 +82,10 @@ button{
     border-radius: 20px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
 }
+
+.notice{
+    font-size: 14px;
+    color: #cccccc;
+    margin-top: 20px;
+    line-height: 1.6;
+}
