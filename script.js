@@ -190,43 +190,37 @@ function showResult(){
 
         if(maxMember === "チャンベイビー"){
 
-            resultImage.src = "images/chang.jpg";
-
             resultText.textContent =
             "どんな時も笑顔あふれるあなたには、笑顔やパフォーマンスでファンの人を幸せな気持ちにさせる彼女がぴったりです‼彼女の魅力はなんといっても笑顔です。その笑顔にファンはたくさんメロメロになっています。さらに彼女は「HAPPY BABY CLUB」というブランドを立ち上げたくさんのお洋服やぬいぐるみなど、より自分の魅力を発信しています‼";
         }
 
         else if(maxMember === "キャ・ノン"){
 
-            resultImage.src = "images/canon.jpg";
 
             resultText.textContent =
             "自分の世界も大事にしながら、冷静な判断ができるあなたには彼女がおすすめです‼彼女はしっかり者でメンバーの中でも司会進行をしたりするほどです。そしてライブパフォーマンス中に見せる鬼かっこいい表情や笑顔に虜ならない人はいないです‼";
         }
 
         else if(maxMember === "ユイ・ガ・ドクソン"){
-            resultImage.src = "images/ユイガドクソン.jpg";
 
             resultText.textContent ="好奇心旺盛なあなたはギャンパレ一鬼才な彼女がぴったりです。"
 
         }
 
         else if(maxMember === "ヤママチミキ"){
-            resultImage.src = "images/ヤマ.jpg";
 
             resultText.textContent ="パフォーマンスが大好きなあなたは彼女を推すのをお勧めします。彼女の歌声はしびれるような感覚があり、彼女の歌声をずっと聞いていたくなります。"
 
         }
 
         else if(maxMember === "アイナスター"){
-            resultImage.src = "images/ainastar.jpg";
 
             resultText.textContent ="ひたむきに努力を続けているあなたにはアイナスターをお勧めいたします‼彼女は所属している事務所WACKの育成グループ（WAgg）から昇格したのがギャンパレです。当初はファンの人に認めてもらいたい、ギャンパレの一員であることの責任感などを一人で抱え込んでしまうことがあったが、活動していく中で彼女なりに殻を破り、たくさんのファンをアイナスターの沼に落とすほどにまで成長しています‼"
 
         }
 
         else if(maxMember === "ユメノユア"){
-            resultImage.src = "images/5659.jpg";
+
 
             resultText.textContent ="好きなものを密かに応援しているあなたには彼女をお勧めします。彼女はメンバーのヤママチミキと一緒に10年以上もグループを支えている立役者の一人です。彼女はライブ中ものすごくかっこいいパフォーマンスをファンに届けてくれていますが、特典会の時ではまるで聖母のような優しいユアさんを見ることができます‼"
 
@@ -234,7 +228,6 @@ function showResult(){
 
 
     　　else if(maxMember === "キラ・メイ"){
-            resultImage.src = "images/キラ・メイ.jpg";
 
             resultText.textContent ="インドア派なあなたには彼女をおすすめします。彼女はアニメや漫画などが好きでFCブログなどで彼女が好きな漫画をお勧めしてくれています。そしてモデルさんのようなスタイルの良さ。ウフフフ～～と笑う彼女の笑い声や笑顔もなお素敵ですよ‼"
 
@@ -243,28 +236,24 @@ function showResult(){
 
          
         else if(maxMember === "キャン・GP・マイカ"){
-            resultImage.src = "images/キャンGPマイカ.jpg";
 
             resultText.textContent ="縁の下の力持ちのようなあなたには彼女をお勧めします‼なんといっても彼女はギャンパレの楽曲の多くを振り付けしています。さらに、外部のアイドルの振り付けなども行っています。そんな彼女をぜひ推してみてはいかがでしょうか？"
 
         }
 
          else if(maxMember === "ココ・パーティン・ココ"){
-            resultImage.src = "images/ココ・パーティン・ココ.jpg";
 
             resultText.textContent ="歌声に惹かれるあなたには彼女をお勧めします‼彼女はギャンパレの歌姫といわれるくらいに魂を揺さぶる歌声でファンを魅了しています‼"
 
         }
 
         else if(maxMember === "月ノウサギ"){
-            resultImage.src = "images/月ノウサギ.jpg";
 
             resultText.textContent ="まさに太陽のような明るさを持つあなたには彼女をお勧めいたします‼彼女はギャンパレ一声が大きいです。彼女がいると少ししんみりしたときでも場が明るくなるほどです‼"
 
         }
 
 　　　　else if(maxMember === "ナルハワールド"){
-            resultImage.src = "images/ナルハワールド.jpg";
 
             resultText.textContent ="メンバーの表情に魅力を感じるあなたには彼女をおすすめします‼彼女はギャンパレの中でも大天使と呼ばれるほどしぐさや笑顔がとても素敵な子です。彼女こそＴＨＥアイドルを体現したような子です。さらに彼女はスウィーツも大好きであり、よく食べたスウィーツの写真を上げています。"
 
